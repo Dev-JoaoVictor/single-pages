@@ -1,0 +1,108 @@
+.temperature-now {
+  display: grid;
+  background: url("../assets/bg-temp-now.jpeg") no-repeat center/cover;
+  position: relative;
+  grid-template-rows: max-content 1fr max-content;
+
+  width: 48rem;
+  height: 48rem;
+}
+
+.temperature-now::before {
+  content: "";
+  position: absolute;
+  top: -5.6rem;
+  left: -5.6rem;
+  background: url("../assets/clouds.svg") no-repeat;
+  
+  width: 17.6rem;
+  height: 17.6rem;
+}
+
+.location {
+  display: flex;
+  justify-self: end;
+  align-items: center;
+
+  gap: 0.4rem;
+  padding: 3.2rem 3.2rem 0;
+}
+
+.location-city {
+  color: #c2bff4;
+  font-size: 1.4rem;
+}
+
+.temp {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+
+  gap: 0.4rem;
+  margin: 6rem;
+  font-weight: 700;
+}
+
+.temp-number {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  
+  gap: 0.4rem;
+  font-size: 8.8rem;
+  color: #ffffff;
+}
+
+.temp-maxmin {
+  font-size: 2rem;
+}
+
+.temp-maxmin-span {
+  color: #c2bff4;
+}
+
+.celsius {
+  color: #dad8f7;
+  font-size: 2.4rem;
+  margin-top: 1.5rem;
+}
+
+.statistics {
+  display: flex;
+  gap: 0.8rem;
+  padding: 1.2rem;
+}
+
+.stats {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  background: rgba(102, 96, 200, 0.6);
+  padding: 1.2rem 1.6rem;
+
+  gap: 1.2rem;
+  border-radius: 0.6rem;
+}
+
+.stats-image{
+  opacity: 0.4;
+}
+
+.stats-info {
+  color: #e7e6fb;
+}
+.stats-type {
+  font-size: 1.2rem;
+}
+
+.stats-type-info {
+  display: flex;
+  align-items: baseline;
+  gap: 0.4rem;
+
+  font-size: 1.8rem;
+}
+
+.stats-type-span {
+  font-size: 1.2rem;
+}

@@ -1,0 +1,30 @@
+.week-weather {
+  padding: 4rem;
+  display: flex;
+  gap: 1.2rem;
+}
+
+.day {
+  flex: 1;
+
+  display: grid;
+  justify-items: center;
+  gap: 1.6rem;
+}
+
+.day-title {
+  color: #DAD8F7;
+  font-size: 1.4rem;
+}
+
+.day-max {
+  font-size: 700;
+  font-size: 1.6rem;
+  color: #FFFFFF;
+  
+}
+
+.day-min {
+  color:#C2BFF4;
+  margin-left: 0.4rem;
+}

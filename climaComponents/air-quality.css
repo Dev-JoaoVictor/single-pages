@@ -1,0 +1,67 @@
+/* ari-quality header */
+.air-quality {
+  font-weight: 700;
+  text-align: center;
+  display: grid;
+}
+
+.air-quality-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 0.8rem;
+  margin-top: 2rem;
+}
+.header-title {
+  color: #dad8f7;
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+/* ar-quality condition*/
+
+.air-quality-stats {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.stats-condition {
+  margin-top: 3.2rem;
+  color: #87ebcd;
+  font-size: 1.8rem;
+}
+
+.stats-number {
+  margin-top: 0.4rem;
+  font-size: 4rem;
+  font-weight: 700;
+  color: #e7e6fb;
+}
+
+/* ar-quality statistic*/
+
+.air-quality-statistic {
+  display: flex;
+  margin-top: 3.2rem;
+  align-items: center;
+  padding: 0 1.6rem 1.6rem;
+}
+
+.statistic {
+  flex: 1;
+  text-align: center;
+}
+
+.statistic-number {
+  color: #87ebcd;
+  font-size: 1.4rem;
+}
+
+.statistic-stats {
+  color: #e7e6fb;
+  font-size: 1.2rem;
+}

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="assets/clouds.svg" type="image/x-icon">
+    <title>Página de Clima</title>
+  </head>
+  <body>
+    <main>
+      <section class="temperature-now">
+        <div class="location">
+          <img src="./assets/pin.svg" alt="icone de localização" />
+          <strong class="location-city">São Paulo, SP</strong>
+        </div>
+        <div class="temp">
+          <div class="temp-number">
+            18
+            <div class="temp-maxmin">
+              22°
+              <span class="temp-maxmin-span">16°</span>
+            </div>
+          </div>
+          <div class="celsius">°C</div>
+        </div>
+        <div class="statistics">
+          <div class="stats">
+            <img
+              class="stats-image"
+              src="assets/temp-wind.svg"
+              alt="Icone de vento"
+            />
+            <div class="stats-info">
+              <p class="stats-type">Vento</p>
+              <h5 class="stats-type-info">
+                17 <span class="stats-type-span">km/h</span>
+              </h5>
+            </div>
+          </div>
+          <div class="stats">
+            <img src="assets/temp-humidity.svg" alt="Icone de umidade" />
+            <div class="stats-info">
+              <p class="stats-type">Umidade</p>
+              <h5 class="stats-type-info">
+                31 <span class="stats-type-span">%</span>
+              </h5>
+            </div>
+          </div>
+          <div class="stats">
+            <img src="assets/temp-rain.svg" alt="Icone de chuva" />
+            <div class="stats-info">
+              <p class="stats-type">Chuva</p>
+              <h5 class="stats-type-info">
+                10 <span class="stats-type-span">%</span>
+              </h5>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="air-quality">
+        <div class="air-quality-header">
+          <img src="assets/leaf.svg" alt="imagem de uma folha de arvore" />
+          <p class="header-title">Qualidade do ar</p>
+        </div>
+        <div class="air-quality-stats">
+          <h2 class="stats-condition">Boa</h2>
+          <p class="stats-number">21</p>
+        </div>
+        <div class="air-quality-statistic">
+          <div class="statistic">
+            <p class="statistic-number">12.9</p>
+            <small class="statistic-stats">PM2.5</small>
+          </div>
+          <div class="statistic">
+            <p class="statistic-number">12.9</p>
+            <small class="statistic-stats">PM10</small>
+          </div>
+          <div class="statistic">
+            <p class="statistic-number">2.1</p>
+            <small class="statistic-stats">SO₂</small>
+          </div>
+          <div class="statistic">
+            <p class="statistic-number">1.4</p>
+            <small class="statistic-stats">NO₂</small>
+          </div>
+          <div class="statistic">
+            <p class="statistic-number">21.2</p>
+            <small class="statistic-stats">O₃</small>
+          </div>
+          <div class="statistic">
+            <p class="statistic-number">0.7</p>
+            <small class="statistic-stats">CO</small>
+          </div>
+        </div>
+      </section>
+      <section class="sunset-time">
+        <div class="sunset-time-header">
+          <img src="assets/sun-time.svg" alt="imagem de uma folha de arvore" />
+          <p class="header-title">Horário do Sol</p>
+        </div>
+        <div class="sun-chart-wrapper">
+          <div class="sun-chart">
+            <div class="chart">
+              <img class="chart-image" src="assets/sun-chart.svg" alt="imagem de um gráfico semi circulo com traços">
+            </div>
+            <time class="now">17:48</time>
+          </div>
+        </div>
+        <div class="time">
+          <time class="sunrise">06:00</time>
+          <time class="sunset">18:52</time>
+        </div>
+      </section>
+      <section class="week-weather">
+        <div class="day">
+          <h4 class="day-title">Amanhã</h4>
+          <img src="assets/weather-clouds.svg" alt="">
+          <p class="day-max">21°<span class="day-min">16°</span></p>
+        </div>
+        <div class="day">
+          <h4 class="day-title">Sexta</h4>
+          <img src="assets/weather-sun.svg" alt="">
+          <p class="day-max">28°<span class="day-min">20°</span></p>
+        </div>
+        <div class="day">
+          <h4 class="day-title">Sábado</h4>
+          <img src="assets/weather-rain.svg" alt="">
+          <p class="day-max">25°<span class="day-min">21°</span></p>
+        </div>
+        <div class="day">
+          <h4 class="day-title">Domingo</h4>
+          <img src="assets/weather-thunder.svg" alt="">
+          <p class="day-max">20°<span class="day-min">14°</span></p>
+        </div>
+        <div class="day">
+          <h4 class="day-title">Segunda</h4>
+          <img src="assets/weather-cloudy.svg" alt="">
+          <p class="day-max">24°<span class="day-min">18°</span></p>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
