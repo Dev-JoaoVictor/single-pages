@@ -32,6 +32,30 @@ section {
   backdrop-filter: blur(1rem);
   border-radius: 1rem;
 }
+nav {
+  position: absolute;
+  top: 10rem;
+  left: 75rem;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 10px;
+}
+
+.link {
+  text-decoration: none;
+  padding: 15px;
+  font-size: 25px;
+}
+
+.link:hover {
+  border-bottom: 2px solid white;
+  color: white;
+  
+}
 
 @media (min-width: 1200px) {
   main {
