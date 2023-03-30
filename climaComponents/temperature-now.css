@@ -1,6 +1,6 @@
 .temperature-now {
   display: grid;
-  background: url("../assets/bg-temp-now.jpeg") no-repeat center/cover;
+  background: url("../img/clima/bg-temp-now.jpeg") no-repeat center/cover;
   position: relative;
   grid-template-rows: max-content 1fr max-content;
 
@@ -13,7 +13,7 @@
   position: absolute;
   top: -5.6rem;
   left: -5.6rem;
-  background: url("../assets/clouds.svg") no-repeat;
+  background: url("./img/clima/clouds.svg") no-repeat;
   
   width: 17.6rem;
   height: 17.6rem;
