@@ -19,6 +19,17 @@ ul {
   gap: 40px;
 }
 
+a {
+  padding: 10px;
+}
+
+li a:hover {
+  background: #ff9900;
+  color: white;
+  border-radius: 4px;
+  transition: all 1s;
+}
+
 .hero {
   width: 592px;
   margin: 70px auto 72px;
